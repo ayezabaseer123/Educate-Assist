@@ -1,0 +1,46 @@
+.schedulemeetingcard {
+    width: 300;
+    padding: 20px;
+    background-color: #ffcccc;
+    margin-top:83px;
+  }
+
+  .bschedulemeetingmenu{
+    width:50%;
+    margin-left:25%;
+    margin-right:25%;
+    background-color: #00e6ac;
+    color: black ;
+    border-color: #00e6ac;
+    transition: background-color 1s;
+
+  }
+
+  .bschedulemeetingmenu:hover{
+    background: #d4083b;
+  }
+  .schedulemeetingmenuBox{
+    height: 550px;
+    width: 1315px;
+    margin-top: 30px;
+    background-color:#ffcccc;
+
+}
+.schedulemeetingmenustyle {
+  width: 100vw;
+  height: 85vh;
+  background-color: #406882;
+  display: flex;
+  /* padding-top: 20px; */
+ /* align-items: center; */
+  justify-content: center;
+}
+
+.tschedulemeetingmenu{
+  font-weight: 600;
+  color: black;
+  font-family:'Lucida Sans ';
+  font-size:'200px'
+}
+
+

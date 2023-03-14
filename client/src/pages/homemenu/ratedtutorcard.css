@@ -1,0 +1,64 @@
+.cratedbox {
+    background-color:#A6A6ED;
+    animation-name: examplerated;
+    animation-duration: 10s;
+    animation-iteration-count: 5;
+    margin-top:43px;
+    margin-left:200px;
+  }
+  .rightratedcardbox {
+    background-color:#A6A6ED;
+    animation-name: examplerated;
+    animation-duration: 10s;
+    animation-iteration-count: 5;
+    margin-top:43px;
+    margin-right:200px;
+  }
+
+  .bratedcard{
+    width:70%;
+    margin-left:15%;
+    margin-right:15%;
+    background-color: #00e6ac;
+    color: black ;
+    border-color: #00e6ac;
+    transition: background-color 1s;
+
+  }
+
+  .cratedBox{
+    height: 550px;
+    width: 1315px;
+    background-color:#fff;
+
+}
+.cratedstyle {
+  width: 100vw;
+  height: 80vh;
+  background-color: #A6A6ED;
+  padding-right: 65px;
+  margin-right: 50px;
+  display: flex;
+ /* align-items: center; */
+  justify-content: center;
+}
+
+.trated{
+  font-weight: 600;
+  color: black;
+  font-family:'Lucida Sans ';
+  font-size:'60px';
+  padding-left: '15px';
+
+}
+
+@keyframes examplerated {
+  3%   {background-color: rgb(177, 135, 191);}
+25%  {background-color: rgb(101, 149, 213);}
+50%  {background-color: rgb(194, 160, 218);}
+90% {background-color: rgb(128, 141, 197)}
+  
+
+}
+
+

@@ -1,0 +1,133 @@
+.classroom_container {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  background-color: #ededf3;
+  overflow: hidden;
+   
+}
+
+.contentArea {
+  flex-grow: 1;
+}
+.classroom_left_section {
+  width: 18%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  border-right: 1px solid grey;
+  justify-content: center;
+  
+  box-shadow: 2px 5px lightgrey;
+
+
+}
+
+.classroom_right_section {
+  width: 80%;
+  height: 100%;
+  
+ 
+}
+
+.classroom_right_section_upper_side{
+   padding:1%;
+  
+  width: 100%;
+  height: 9%;
+  display: flex;
+  position:fixed;
+  z-index: 1001;
+  
+  
+
+}
+
+.classroom_right_section_down_side{
+  border-top: 1px solid grey;
+  width: 100%;
+  height: 80%;
+  overflow-y: scroll;
+  overflow-x:hidden;
+  position:absolute;
+  bottom:0;
+
+}
+
+.classroom_tile{
+    
+    margin-top:10px;
+}
+
+.schedule{
+  width: 60vw;
+  height: 15vh;
+  border-radius: 5px;
+  position:relative;
+  margin-top:20px;
+  border-left: 4px solid #66a3ff;
+  margin-left: 20px;
+  
+}
+
+.schedule_up {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  position:absolute;
+  background-color:#F8F8FF;
+  top: 0;
+}
+
+.schedule_down {
+  
+    bottom: 0;
+  position:absolute;
+  width: 100%;
+  height: 50%;
+  color:black;
+  background-color:#66a3ff;
+  display: flex;
+  cursor: pointer;
+  
+  
+
+  
+}
+.schedular_name{
+   margin-left: 10px;
+   font-weight: 600;
+   top: 1;
+}
+.schedule_white_part{
+  position:relative;
+  width:80%
+  
+}
+.scheduled{
+  bottom: 1;
+   position:absolute;
+   width: 100%;
+   margin-left: 10px;
+   font-size: 13px ;
+   
+}
+
+.schedule_down_icon{
+  margin: auto;
+  flex-direction: row;
+  
+}
+
+.schedule_down_date{
+ width:95%;
+  margin: auto;
+}
+.teamheading{
+font-weight: 600;
+color: black;
+font-family:'Lucida Sans ';
+font-size:'60px';
+padding-left: '15px';
+
+}

@@ -1,0 +1,88 @@
+.profilePic {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.pBox{
+  height: 600px;
+  width: 900px;
+  margin-right: 650px;
+  background-color: #47e7bf;
+  border-radius: 40px;
+  padding: 30cm;
+  
+  /* justify-content: space-around; */
+}
+.pstyle {
+width: 100vw;
+height: 120vh;
+background-color: 'white';
+display: flex;
+padding-right: 65px;
+margin-right: 50px;
+/* align-items: center; */
+/* justify-content: center; */
+}
+
+.formmm{
+padding-bottom: 30px;
+}
+
+.textstyleee{
+font-weight: 600;
+color: #1775ee;
+font-family:'helvetica ';
+}
+
+.fieldlabel{
+font-weight: 600;
+margin:10;
+font-family:'times new roman';
+font-size:'20px'
+}
+
+
+
+.cprofilebox {
+background-color:#80b3ff;
+margin-top:83px;
+/* margin-left:200px; */
+}
+
+
+.bprofilecard{
+width:70%;
+margin-left:15%;
+margin-right:15%;
+background-color: #00e6ac;
+color: black ;
+border-color: #00e6ac;
+transition: background-color 1s;
+
+}
+
+
+
+.tprofilec{
+font-weight: 600;
+color: black;
+font-family:'Lucida Sans ';
+font-size:'30px';
+padding-left: '25px';
+
+}
+.LocationButton{
+  width: 60px;
+  align-content: center;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  color: red;
+  cursor: pointer;
+  margin:15px;
+
+}
+
+

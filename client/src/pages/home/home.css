@@ -1,0 +1,48 @@
+.homestyle {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  font-size: 50px;
+  font-weight: 800;
+  color: #A6A6ED;
+  margin-bottom: 10px;
+}
+
+.textDesc {
+  font-size: 24px;
+}
+
+.Box{
+    height: 250px;
+    width: 900px;
+    /* padding-right: 10px; */
+    background-color: #ffffff;
+    /* border-radius: 10px; */
+    /* display: flex; 
+    flex-direction: row; */
+    justify-content: space-around;
+}
+
+
+
+
+.HButton{
+    width: 160px;
+    align-content: center;
+    height: 150px;
+    border-radius: 20px;
+    border: none;
+    background-color: hsl(214, 92%, 34%);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin:35px;
+    border-radius: 10px;
+}

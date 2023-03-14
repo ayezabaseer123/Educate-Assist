@@ -1,0 +1,12 @@
+.contentArea {
+    flex-grow: 1;
+  }
+
+
+.listbackground{
+    width: "100%";
+    height: 625;
+    background-color:#e6f0ff
+    ;
+  }
+  

@@ -1,0 +1,77 @@
+.viewprofilePic {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.contentArea {
+  flex-grow: 1;
+
+}
+
+.viewpBox{
+  height: 600px;
+  width: 900px;
+  margin-right: 650px;
+  background-color: #47e7bf;
+  border-radius: 40px;
+  padding: 30cm;
+  
+  /* justify-content: space-around; */
+}
+
+
+.viewformmm{
+padding-bottom: '5%';
+}
+
+.textstyleee{
+font-weight: 600;
+color: #1775ee;
+font-family:'helvetica ';
+}
+
+.fieldlabel{
+font-weight: 600;
+margin:10;
+font-family:'times new roman';
+font-size:'20px'
+}
+
+
+
+.viewpstyle {
+  width: '100px';
+  height: 100%;
+  background-color: white
+  ;
+  display: flex;
+
+  /* padding-bottom: '85%'; */
+  /* padding-right: '15%';
+  margin-right: 50px;  */
+  /* align-items: center; */
+  /* justify-content: center; */
+  }
+
+.viewtprofilec{
+font-weight: 600;
+color: black;
+font-family:'Lucida Sans ';
+font-size:'30px';
+padding-left: '25px';
+
+}
+
+.sortingbuttons{
+  width:60%;
+  margin-left:20%;
+  margin-right:20%;
+  transition: background-color 1s;
+
+}
+
+.center-col{
+  overflow-y: scroll;
+ 
+}
